@@ -1,0 +1,7 @@
+@import "function";
+
+@mixin Font($family:'Montserrat' sans-serif,$size:13px,$color:#fff){
+  font-family: $family;
+  font-size: calculateRem($size);
+  color: $color;
+}

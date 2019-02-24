@@ -1,0 +1,157 @@
+@import "function";
+
+@media (max-width: 1800px){
+  .review{
+    flex-direction: column-reverse;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .add-review{
+    margin-bottom: 1rem;
+  }
+  .line{
+    display: none;
+  }
+}
+
+@media (max-width: 1575px){
+    .buy-buttons{
+      flex-direction: column;
+        a{
+          width: 100%;
+            &:first-child{
+              margin-bottom: 1rem;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1281px) {
+  .logo{
+    display: block;
+  }
+  .qty{
+    max-width: 50px !important;
+  }
+}
+@media (min-width: 992px) {
+  .footer-award-row{
+    .col-lg-6{
+      width: 48% !important;
+      flex: 0 0 48% !important;
+      &:first-child{
+        margin-right: 1.8rem;
+      }
+
+    }
+  }
+
+}
+
+@media (max-width: 991px) {
+  .main-footer{
+    text-align: center;
+  }
+
+  .footer-award{
+    padding: 3rem;
+    margin-bottom: calculateRem(20px);
+  }
+  .replace-article-2{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .search-block{
+    width: 40%;
+  }
+}
+
+
+@media (max-width: 775px) {
+  .product-nav-row{
+    background: none;
+  }
+  .product-nav{
+    flex-direction: column;
+    align-items: normal;
+    background: none;
+      li{
+        display: flex;
+        text-align: center;
+        margin-bottom: 1rem;
+          a{
+            background: #f8f8f8;
+            width: 100%;
+          }
+      }
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .top-bar{
+    align-items: flex-end;
+  }
+  .empty {
+    height: 1.975rem;
+  }
+  .currency{
+    padding:0.625rem 0;
+  }
+  .register{
+    padding: 0.625rem 1.2rem;
+    order: -1;
+  }
+  .sig-in{
+    padding: 0.625rem 0;
+    order:-2;
+  }
+  .logo{
+    display: none;
+  }
+  .search-block{
+    width: 100%;
+  }
+
+
+}
+
+@media  (max-width:496px) {
+  .select-style{
+    flex-direction: column;
+  }
+
+  .qty-container{
+    align-self: flex-start !important;
+  }
+
+  .select{
+    margin-bottom: 1rem;
+  }
+
+}
+
+@media (max-width: 410px) {
+  .banner-social{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 725px){
+.copyright{
+  .col-lg-6:first-child{
+    justify-content: center;
+  }
+  .col-lg-6:last-child{
+    flex-direction: column;
+    align-items: center;
+
+    address{
+        display: block;
+      }
+  }
+}
+}
